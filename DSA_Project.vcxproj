@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -90,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -116,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,23 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ActorNode.h" />
-    <ClInclude Include="AVLTree.h" />
-    <ClInclude Include="CSVParser.h" />
-    <ClInclude Include="DataManager.h" />
-    <ClInclude Include="DirectorNode.h" />
-    <ClInclude Include="GenreNode.h" />
-    <ClInclude Include="Graph.h" />
-    <ClInclude Include="HashTable.h" />
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="MovieNode.h" />
-    <ClInclude Include="Queue.h" />
-    <ClInclude Include="Source.h" />
-    <ClInclude Include="Stack.h" />
-    <ClInclude Include="String.h" />
+    <ClInclude Include="include\ActorNode.h" />
+    <ClInclude Include="include\AVLTree.h" />
+    <ClInclude Include="include\CSVParser.h" />
+    <ClInclude Include="include\DataManager.h" />
+    <ClInclude Include="include\DirectorNode.h" />
+    <ClInclude Include="include\GenreNode.h" />
+    <ClInclude Include="include\Graph.h" />
+    <ClInclude Include="include\HashTable.h" />
+    <ClInclude Include="include\LinkedList.h" />
+    <ClInclude Include="include\MovieNode.h" />
+    <ClInclude Include="include\Queue.h" />
+    <ClInclude Include="include\Source.h" />
+    <ClInclude Include="include\Stack.h" />
+    <ClInclude Include="include\String.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\Users\zahid\Downloads\movie_metadata.csv\movie_metadata.csv" />
