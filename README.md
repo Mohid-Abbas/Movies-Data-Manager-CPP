@@ -201,8 +201,7 @@ Enter filename: sample_movies.csv
 - Implement more sophisticated recommendation algorithms
 
 ## Authors
-- [Your Name]
-- [Partner Name if applicable]
+- Muhammad Mohid Abbas
 
 ## Course Information
 - **Course**: Data Structures and Algorithms
